@@ -10,7 +10,7 @@ Create an file to ~/Node/plugins/YOUR_PLUGIN.cfg (ASCII/DOS)
 How to use it: KEY=TEXT<endline> If you write an $<file> to TEXT the software will load the text from <file>,
 If you write an $$<url> to TEXT the software will load the text from the URL <url>. It will be ignored if you write lower or
 upper case at the keys. If you write an ~\ before an path to something it will be replaced with the path to the pluginfolder.
-You can make commands with #.
+You can make commands with #. Note: the plugin.cfg file must be the only *.cfg file of the plugin!
 
 The software will accept the following keys:
 Icon: an 16x16 image which will be visible at the pluginmanager
