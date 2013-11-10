@@ -23,7 +23,7 @@ Info: more informatin about the plugin
 Web: A website which will be visibele at the pluginmanager
 DLL: The DLL where the content of the plugin is stored
 
-for example:
+for example: File: Exampleplugin\plugin.cfg
 
 Name=Exampleplugin
 Author=ExampleAuthor
