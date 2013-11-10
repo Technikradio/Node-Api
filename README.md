@@ -46,4 +46,7 @@ DLL=~\Exampleplugin\plugin.dll#the only thing which is important
 We think it is better if the extra stuff of the plugin is stored in a folder because
 it could be a huge mess if you have multiple plugins installed.
 
+The plugin (DLL) must implement the interface at interface.vb.
+
+
 
