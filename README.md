@@ -26,13 +26,21 @@ DLL: The DLL where the content of the plugin is stored
 for example: File: Exampleplugin\plugin.cfg
 
 Name=Exampleplugin
+
 Author=ExampleAuthor
+
 Icon=~\Exampleplugin\icon.png#or *.jpg *.ico
+
 Info=$~\Exampleplugin\info.txt
+
 Web=http://www.example.com/
+
 Version=1.0.0.0
+
 MinVersion=1.0.2.0#the first public release of node with the new plugin system
+
 MaxVerison=#can be left emty if the are no known
+
 DLL=~\Exampleplugin\plugin.dll#the only thing which is important
 
 We think it is better if the extra stuff of the plugin is stored in a folder because
