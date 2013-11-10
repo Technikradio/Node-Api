@@ -35,7 +35,7 @@ MinVersion=1.0.2.0#the first public release of node with the new plugin system
 MaxVerison=#can be left emty if the are no known
 DLL=~\Exampleplugin\plugin.dll#the only thing which is important
 
-We think it is better if the extra stuff of the plugin (everything exept for the *.cfg file) is stored in a folder because
+We think it is better if the extra stuff of the plugin is stored in a folder because
 it could be a huge mess if you have multiple plugins installed.
 
 
