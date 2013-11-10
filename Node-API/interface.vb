@@ -5,5 +5,6 @@
     Sub LogAdd(ByVal log As String) 'This will be called if something is add to the log
     Property wasLoaded As Boolean 'This should contains if the OnLoading Sub was called or not
     Property GuidClasses As List(Of GuidClass) 'This will only be called once to inizilize the menubuttons
+    Sub wasButtonClicked(ByVal key As String)
 
 End Interface
