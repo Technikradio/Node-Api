@@ -11,6 +11,6 @@
     Property ElapsedTime As UInt16 'This is the time the client is running stable. it will be updated while the client is processing the rows to add
     Property MessagesToLog As List(Of String) 'Things which will be shown at the log
     Property ProcessingMessagesToLog As Boolean 'Same deal as ProcessingSendToAdd
-    Property PluginID As String 'The Name of the plugin to blame the right one in case of any crashes
+    ReadOnly Property PluginID As String 'The Name of the plugin to blame the right one in case of any crashes
 
 End Interface
