@@ -10,5 +10,6 @@
     Property ProcessingSendToAdd As Boolean 'This is true if the client is working on the requests. Don´t add something if it is the case, else it would be deleated!
     Property ElapsedTime As UInt16 'This is the time the client is running stable. it will be updated while the client is processing the rows to add
     Property MessagesToLog As List(Of String) 'Things which will be shown at the log
+    Property ProcessingMessagesToLog As Boolean 'Same deal as ProcessingSendToAdd
 
 End Interface
