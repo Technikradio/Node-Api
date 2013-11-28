@@ -62,6 +62,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="analogBorder.vb" />
     <Compile Include="interface.vb" />
     <Compile Include="GuidClass.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

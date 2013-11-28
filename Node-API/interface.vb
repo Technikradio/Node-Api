@@ -6,5 +6,6 @@
     Property wasLoaded As Boolean 'This should contains if the OnLoading Sub was called or not
     Property GuidClasses As List(Of GuidClass) 'This will only be called once to inizilize the menubuttons
     Sub wasButtonClicked(ByVal key As String) 'This will be called if an MenuButton of this or an other plugin is clicked. The key value is to keep apart of the different Buttons.
+    Property SendToAdd As List(Of analogBorder) 'This contails all rows the plugin add Note: this will only be called every 0.5 seconds
 
 End Interface
