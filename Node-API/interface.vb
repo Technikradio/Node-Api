@@ -8,5 +8,6 @@
     Sub wasButtonClicked(ByVal key As String) 'This will be called if an MenuButton of this or an other plugin is clicked. The key value is to keep apart of the different Buttons.
     Property SendToAdd As List(Of analogBorder) 'This contails all rows the plugin add Note: this will only be called every 0.1 seconds
     Property ProcessingSendToAdd As Boolean 'This is true if the client is working on the requests. Don´t add something if it is the case, else it would be deleated!
+    Property ElapsedTime As UInt16 'This is the time the client is running stable. it will be updated while the client is processing the rows to add
 
 End Interface
