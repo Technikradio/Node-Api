@@ -33,4 +33,6 @@ End Class
 Public Class JsonDoc
     Public Dim StoredPlace As String 'The place where the plugin is stored
     Public Dim AllocRam As UInt64 'The given ram by node
+    Public Dim IsAdminApp As Boolean 'Is true if node is executed as an admin app
+    Public Dim AllowWrite As Boolean 'Is true if node allows the plugin to write into the file
 End Class
