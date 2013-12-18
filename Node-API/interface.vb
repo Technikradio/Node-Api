@@ -13,4 +13,6 @@
     Property ProcessingMessagesToLog As Boolean 'Same deal as ProcessingSendToAdd
     ReadOnly Property PluginID As String 'The Name of the plugin to blame the right one in case of any crashes
     Property FunctionsToScripts As ScriptModule 'These will be added if an script is executing
+    ReadOnly Property PluginConfig as JsonDoc 'Jsondocumentation of the config
+    
 End Interface
