@@ -29,3 +29,8 @@
     End Sub
 
 End Class
+
+Public Class JsonDoc
+    Public Dim StoredPlace As String 'The place where the plugin is stored
+    Public Dim AllocRam As UInt64 'The given ram by node
+End Class
